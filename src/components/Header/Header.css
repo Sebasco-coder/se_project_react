@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px 20px 0px;
+  width: 100%;
+  background-color: rgba(243, 243, 243, 1);
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header__logo {
+  height: 40px;
+  width: auto;
+}
+.header__place {
+  color: #000;
+  margin: 0;
+  font-family: Cabinet Grotesk;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__add-clothes-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.2s ease;
+}
+.header__add-clothes-btn:hover {
+  opacity: 0.6;
+}
+
+.header__username {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.header__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
