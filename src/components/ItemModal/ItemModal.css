@@ -1,71 +1,4 @@
-/* .modal_type_item {
-  position: fixed;
-  inset: 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: rgba(0, 0, 0, 0.5);
-
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-
-  z-index: 999;
-}
-
-.modal_type_item.modal_opened {
-  visibility: visible;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.modal__container {
-  position: relative;
-  background: #fff;
-  border-radius: 16px;
-  overflow: hidden;
-
-  width: 380px;
-}
-
-.modal__close-btn {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-
-  border: none;
-  background: transparent;
-  font-size: 16px;
-  cursor: pointer;
-  color: #fff;
-  z-index: 1;
-}
-
-.modal__image {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  display: block;
-}
-
-.modal__footer {
-  padding: 12px 16px 16px;
-}
-
-.modal__title {
-  margin: 0 0 6px;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.modal__weather {
-  margin: 0;
-  font-size: 14px;
-} */
-
-.modal {
+.item-modal {
   position: fixed;
   inset: 0;
 
@@ -83,13 +16,13 @@
   z-index: 999;
 }
 
-.modal_opened {
+.item-modal_opened {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal__container {
+.item-modal__container {
   position: relative;
   width: 498px;
   height: 610px;
@@ -99,39 +32,39 @@
   overflow: hidden;
 }
 
-.modal__close-btn {
+.item-modal__close {
   position: absolute;
   top: 20px;
   right: 20px;
 
-  border: none;
   background: transparent;
+  border: none;
 
-  font-size: 20px;
   color: white;
+  font-size: 20px;
   cursor: pointer;
-  z-index: 2;
+  z-index: 5;
 }
 
-.modal__image {
+.item-modal__image {
   width: 100%;
   height: 498px;
   object-fit: cover;
   display: block;
 }
 
-.modal__footer {
+.item-modal__footer {
   padding: 16px;
-  background-color: #fff;
+  background-color: white;
 }
 
-.modal__title {
-  margin: 0 0 4px 0;
+.item-modal__title {
+  margin: 0 0 8px;
   font-size: 16px;
   font-weight: 700;
 }
 
-.modal__weather {
+.item-modal__weather {
   margin: 0;
   font-size: 16px;
 }
